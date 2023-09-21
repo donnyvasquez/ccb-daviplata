@@ -103,7 +103,11 @@ $theme-colors: (
 .back-nequi{
   background: url(../assets/images/back-nequi.png);
 }
-
+@media print{
+  .back-nequi{
+    background: none;
+  }
+}
 #countdownPercent{
   transition:all 0.3s ease-in-out;
 }
